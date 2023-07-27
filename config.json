@@ -1,0 +1,12 @@
+{
+  "bootstrap_servers": [
+    "b-2-public.kafkasupplychain.upimcr.c1.kafka.us-east-1.amazonaws.com:9196",
+    "b-1-public.kafkasupplychain.upimcr.c1.kafka.us-east-1.amazonaws.com:9196"
+  ],
+  "group_id": "my-group",
+  "sasl_mechanism": "SCRAM-SHA-512",
+  "sasl_plain_password": "supply-secret",
+  "sasl_plain_username": "supply",
+  "security_protocol": "SASL_SSL",
+  "topic": "SupplyChain"
+}
